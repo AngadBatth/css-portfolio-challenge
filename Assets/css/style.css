@@ -4,6 +4,11 @@
     --headerbg: #404040;
     --dark-blue: #11125A;
     --light-blue: #51B8C4;
+    --violet: #251DC6;
+}
+
+html {
+    background-color: var(--background);
 }
 
 body {
@@ -52,3 +57,38 @@ a {
 }
 
 /* Main Section */
+
+#picHeader {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url("../images/violetheader.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Default Layout of Sections */
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 225px;
+}
+
+/* Layout for About me Section */
+h2 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--dark-blue);
+    margin-right: 2rem;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--dark-blue);
+    line-height: 20px;
+    padding-left: 20px;
+    border-left: 3px solid var(--violet);
+}
