@@ -252,3 +252,62 @@ h2 {
     margin-bottom: 10px;
   }
   
+
+  /* Media Queries for Responsiveness */
+
+  @media only screen and (max-width: 425px) {
+    header {
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #sectionAboutMe {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #project1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #project2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #project3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+  }
