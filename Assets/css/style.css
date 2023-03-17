@@ -91,7 +91,7 @@ h2 {
     margin-right: 3rem;
 }
 
-p {
+#sectionAboutMe p {
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--dark-blue);
@@ -227,3 +227,28 @@ p {
     padding-left: 20px;
     border-left: 3px solid var(--violet);
 }
+
+/* Contact Me section */
+
+#contactMe {
+    padding: 30px;
+    clear: both;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    background-color: var(--headerbg);
+  }
+
+  footer h3 {
+    color: var(--light-blue);
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #contactMe a {
+    color: var(--light-blue);
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
