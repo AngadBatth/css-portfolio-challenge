@@ -29,7 +29,7 @@ Throughout the course of this challenge, I had learned how to create a website f
 [Mozilla Developer](https://developer.mozilla.org/en-US/) <br />
 [W3 Schools](https://www.w3schools.com/) <br />
 [Stack Overflow](https://stackoverflow.com/) <br />
-Daler Singh
+Daler Singh <br />
 Adam Nyx
 
 
